@@ -1,0 +1,3 @@
+﻿  GameManager.cpp
+C:\Users\Aidan\source\repos\Blackjack\Blackjack\GameManager.cpp(139,20): warning C4018: '<': signed/unsigned mismatch
+  Blackjack.vcxproj -> C:\Users\Aidan\source\repos\Blackjack\Debug\Blackjack.exe
