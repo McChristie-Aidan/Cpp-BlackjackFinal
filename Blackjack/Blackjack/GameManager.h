@@ -7,9 +7,8 @@ using std::vector;
 
 class GameManager
 {
-public:
-	GameManager();
-	~GameManager();
+private:
+	//i have a lot of functions here maybe i should make a util class
 	void playBlackjack(Player* player, Player* dealer, Deck* d);
 	void printCard(vector<Card*>* cardPile, int i);
 	void drawCard(Player* playerWhoDraws, vector<Card*>* deckToDrawFrom, int timesToDraw);
@@ -18,5 +17,11 @@ public:
 	void displayCurrent();
 	string getHitOrStand();
 	string getPlayerName();
+	void checkWin(int playerS, int dealerS);
+	bool checkInstantWin(int playerS, int dealerS);
+public:
+	GameManager();
+	~GameManager();
+	
 };
 
